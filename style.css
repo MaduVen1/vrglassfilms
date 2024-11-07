@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 56px; /* Offset for fixed navbar */
+    /* background-color: #555; */
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(255, 0, 0, 0.2); Black overlay */
+    background-image: url(./background\ image\ 2.jpg);
+    filter: brightness(60%);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    z-index: 1;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* About Section */
+#about img {
+    width: 100%;
+    height: auto;
+}
+
+/* Services Section */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+}
+#contact {
+    background-color: #f9f9f9;
+    border-top: 5px solid #007bff;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.contact-info h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    color: #555;
+}
+
+.contact-info ul {
+    padding-left: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.lead{
+    color: orange;
+}
+#textcolor{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
